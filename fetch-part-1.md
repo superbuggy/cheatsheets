@@ -19,3 +19,12 @@ tell fetch how to make a certain kind of request-- it uses specificy object keys
 
 `JSON.stringify` is required here to convert the data into an HTTP protocol-compatiable data-encoding (a string).
 
+### In the Assignment Context
+
+Given the URL `https://messenger.ccp-lessons.com/message/JNUM/ID`, you'll want to make a fetch GET request to that URL which will look like...
+ 
+```js
+const id = ...
+const jnum = ...
+fetch(`https://messenger.ccp-lessons.com/message/${jnum}/${id}`)
+```

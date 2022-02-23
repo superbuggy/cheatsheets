@@ -15,7 +15,7 @@ tell fetch how to make a certain kind of request-- it uses specificy object keys
 }
 ```
 
->  Gotcha Alert
+> ⚠️ Gotcha Alert
 
 `JSON.stringify` is required here to convert the data into an HTTP protocol-compatiable data-encoding (a string).
 
